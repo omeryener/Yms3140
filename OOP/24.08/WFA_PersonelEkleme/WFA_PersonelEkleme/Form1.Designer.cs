@@ -29,8 +29,17 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnKaydet = new System.Windows.Forms.Button();
+            this.txtAdres = new System.Windows.Forms.RichTextBox();
+            this.nudMaasNet = new System.Windows.Forms.NumericUpDown();
+            this.nudMaasBrut = new System.Windows.Forms.NumericUpDown();
+            this.dtpDogumTarihi = new System.Windows.Forms.DateTimePicker();
+            this.cmbCinsiyet = new System.Windows.Forms.ComboBox();
             this.cmbDepartman = new System.Windows.Forms.ComboBox();
+            this.txtSgk = new System.Windows.Forms.TextBox();
             this.txtTckn = new System.Windows.Forms.TextBox();
+            this.txtTelefonNo = new System.Windows.Forms.TextBox();
+            this.txtSoyad = new System.Windows.Forms.TextBox();
             this.txtAd = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -43,23 +52,16 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtSgk = new System.Windows.Forms.TextBox();
-            this.cmbCinsiyet = new System.Windows.Forms.ComboBox();
-            this.dtpDogumTarihi = new System.Windows.Forms.DateTimePicker();
-            this.nudMaasBrut = new System.Windows.Forms.NumericUpDown();
-            this.nudMaasNet = new System.Windows.Forms.NumericUpDown();
-            this.txtSoyad = new System.Windows.Forms.TextBox();
-            this.txtTelefonNo = new System.Windows.Forms.TextBox();
-            this.txtAdres = new System.Windows.Forms.RichTextBox();
-            this.btnKaydet = new System.Windows.Forms.Button();
+            this.btnVeritabani = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudMaasBrut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMaasNet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudMaasBrut)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.LightBlue;
+            this.groupBox1.Controls.Add(this.btnVeritabani);
             this.groupBox1.Controls.Add(this.btnKaydet);
             this.groupBox1.Controls.Add(this.txtAdres);
             this.groupBox1.Controls.Add(this.nudMaasNet);
@@ -86,10 +88,57 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(756, 403);
+            this.groupBox1.Size = new System.Drawing.Size(788, 488);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Personel Bilgisi";
+            // 
+            // btnKaydet
+            // 
+            this.btnKaydet.Location = new System.Drawing.Point(487, 328);
+            this.btnKaydet.Name = "btnKaydet";
+            this.btnKaydet.Size = new System.Drawing.Size(260, 51);
+            this.btnKaydet.TabIndex = 6;
+            this.btnKaydet.Text = "Kaydet";
+            this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
+            // 
+            // txtAdres
+            // 
+            this.txtAdres.Location = new System.Drawing.Point(487, 142);
+            this.txtAdres.Name = "txtAdres";
+            this.txtAdres.Size = new System.Drawing.Size(260, 180);
+            this.txtAdres.TabIndex = 5;
+            this.txtAdres.Text = "";
+            // 
+            // nudMaasNet
+            // 
+            this.nudMaasNet.Location = new System.Drawing.Point(151, 340);
+            this.nudMaasNet.Name = "nudMaasNet";
+            this.nudMaasNet.Size = new System.Drawing.Size(176, 26);
+            this.nudMaasNet.TabIndex = 4;
+            // 
+            // nudMaasBrut
+            // 
+            this.nudMaasBrut.Location = new System.Drawing.Point(151, 302);
+            this.nudMaasBrut.Name = "nudMaasBrut";
+            this.nudMaasBrut.Size = new System.Drawing.Size(176, 26);
+            this.nudMaasBrut.TabIndex = 4;
+            // 
+            // dtpDogumTarihi
+            // 
+            this.dtpDogumTarihi.Location = new System.Drawing.Point(151, 260);
+            this.dtpDogumTarihi.Name = "dtpDogumTarihi";
+            this.dtpDogumTarihi.Size = new System.Drawing.Size(176, 26);
+            this.dtpDogumTarihi.TabIndex = 3;
+            // 
+            // cmbCinsiyet
+            // 
+            this.cmbCinsiyet.FormattingEnabled = true;
+            this.cmbCinsiyet.Location = new System.Drawing.Point(151, 216);
+            this.cmbCinsiyet.Name = "cmbCinsiyet";
+            this.cmbCinsiyet.Size = new System.Drawing.Size(176, 28);
+            this.cmbCinsiyet.TabIndex = 2;
             // 
             // cmbDepartman
             // 
@@ -99,12 +148,33 @@
             this.cmbDepartman.Size = new System.Drawing.Size(176, 28);
             this.cmbDepartman.TabIndex = 2;
             // 
+            // txtSgk
+            // 
+            this.txtSgk.Location = new System.Drawing.Point(151, 179);
+            this.txtSgk.Name = "txtSgk";
+            this.txtSgk.Size = new System.Drawing.Size(176, 26);
+            this.txtSgk.TabIndex = 1;
+            // 
             // txtTckn
             // 
             this.txtTckn.Location = new System.Drawing.Point(151, 95);
             this.txtTckn.Name = "txtTckn";
             this.txtTckn.Size = new System.Drawing.Size(176, 26);
             this.txtTckn.TabIndex = 1;
+            // 
+            // txtTelefonNo
+            // 
+            this.txtTelefonNo.Location = new System.Drawing.Point(487, 95);
+            this.txtTelefonNo.Name = "txtTelefonNo";
+            this.txtTelefonNo.Size = new System.Drawing.Size(176, 26);
+            this.txtTelefonNo.TabIndex = 1;
+            // 
+            // txtSoyad
+            // 
+            this.txtSoyad.Location = new System.Drawing.Point(487, 51);
+            this.txtSoyad.Name = "txtSoyad";
+            this.txtSoyad.Size = new System.Drawing.Size(176, 26);
+            this.txtSoyad.TabIndex = 1;
             // 
             // txtAd
             // 
@@ -223,85 +293,29 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Ad:";
             // 
-            // txtSgk
+            // btnVeritabani
             // 
-            this.txtSgk.Location = new System.Drawing.Point(151, 179);
-            this.txtSgk.Name = "txtSgk";
-            this.txtSgk.Size = new System.Drawing.Size(176, 26);
-            this.txtSgk.TabIndex = 1;
-            // 
-            // cmbCinsiyet
-            // 
-            this.cmbCinsiyet.FormattingEnabled = true;
-            this.cmbCinsiyet.Location = new System.Drawing.Point(151, 216);
-            this.cmbCinsiyet.Name = "cmbCinsiyet";
-            this.cmbCinsiyet.Size = new System.Drawing.Size(176, 28);
-            this.cmbCinsiyet.TabIndex = 2;
-            // 
-            // dtpDogumTarihi
-            // 
-            this.dtpDogumTarihi.Location = new System.Drawing.Point(151, 260);
-            this.dtpDogumTarihi.Name = "dtpDogumTarihi";
-            this.dtpDogumTarihi.Size = new System.Drawing.Size(176, 26);
-            this.dtpDogumTarihi.TabIndex = 3;
-            // 
-            // nudMaasBrut
-            // 
-            this.nudMaasBrut.Location = new System.Drawing.Point(151, 302);
-            this.nudMaasBrut.Name = "nudMaasBrut";
-            this.nudMaasBrut.Size = new System.Drawing.Size(176, 26);
-            this.nudMaasBrut.TabIndex = 4;
-            // 
-            // nudMaasNet
-            // 
-            this.nudMaasNet.Location = new System.Drawing.Point(151, 340);
-            this.nudMaasNet.Name = "nudMaasNet";
-            this.nudMaasNet.Size = new System.Drawing.Size(176, 26);
-            this.nudMaasNet.TabIndex = 4;
-            // 
-            // txtSoyad
-            // 
-            this.txtSoyad.Location = new System.Drawing.Point(487, 51);
-            this.txtSoyad.Name = "txtSoyad";
-            this.txtSoyad.Size = new System.Drawing.Size(176, 26);
-            this.txtSoyad.TabIndex = 1;
-            // 
-            // txtTelefonNo
-            // 
-            this.txtTelefonNo.Location = new System.Drawing.Point(487, 95);
-            this.txtTelefonNo.Name = "txtTelefonNo";
-            this.txtTelefonNo.Size = new System.Drawing.Size(176, 26);
-            this.txtTelefonNo.TabIndex = 1;
-            // 
-            // txtAdres
-            // 
-            this.txtAdres.Location = new System.Drawing.Point(487, 142);
-            this.txtAdres.Name = "txtAdres";
-            this.txtAdres.Size = new System.Drawing.Size(260, 180);
-            this.txtAdres.TabIndex = 5;
-            this.txtAdres.Text = "";
-            // 
-            // btnKaydet
-            // 
-            this.btnKaydet.Location = new System.Drawing.Point(487, 328);
-            this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(260, 51);
-            this.btnKaydet.TabIndex = 6;
-            this.btnKaydet.Text = "Kaydet";
-            this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnVeritabani.Location = new System.Drawing.Point(487, 385);
+            this.btnVeritabani.Name = "btnVeritabani";
+            this.btnVeritabani.Size = new System.Drawing.Size(260, 51);
+            this.btnVeritabani.TabIndex = 6;
+            this.btnVeritabani.Text = "Veritabanına Kaydet";
+            this.btnVeritabani.UseVisualStyleBackColor = true;
+            this.btnVeritabani.Click += new System.EventHandler(this.btnVeritabani_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 421);
+            this.ClientSize = new System.Drawing.Size(973, 512);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudMaasBrut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMaasNet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudMaasBrut)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -332,6 +346,7 @@
         private System.Windows.Forms.TextBox txtSgk;
         private System.Windows.Forms.TextBox txtTelefonNo;
         private System.Windows.Forms.TextBox txtSoyad;
+        private System.Windows.Forms.Button btnVeritabani;
     }
 }
 

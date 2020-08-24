@@ -1,0 +1,10 @@
+C:\Users\Fatih\Desktop\Github\YMS3140\OOP\24.08\WFA_PersonelEkleme\WFA_PersonelEkleme\bin\Debug\WFA_PersonelEkleme.exe.config
+C:\Users\Fatih\Desktop\Github\YMS3140\OOP\24.08\WFA_PersonelEkleme\WFA_PersonelEkleme\bin\Debug\WFA_PersonelEkleme.exe
+C:\Users\Fatih\Desktop\Github\YMS3140\OOP\24.08\WFA_PersonelEkleme\WFA_PersonelEkleme\bin\Debug\WFA_PersonelEkleme.pdb
+C:\Users\Fatih\Desktop\Github\YMS3140\OOP\24.08\WFA_PersonelEkleme\WFA_PersonelEkleme\obj\Debug\WFA_PersonelEkleme.csprojAssemblyReference.cache
+C:\Users\Fatih\Desktop\Github\YMS3140\OOP\24.08\WFA_PersonelEkleme\WFA_PersonelEkleme\obj\Debug\WFA_PersonelEkleme.Form1.resources
+C:\Users\Fatih\Desktop\Github\YMS3140\OOP\24.08\WFA_PersonelEkleme\WFA_PersonelEkleme\obj\Debug\WFA_PersonelEkleme.Properties.Resources.resources
+C:\Users\Fatih\Desktop\Github\YMS3140\OOP\24.08\WFA_PersonelEkleme\WFA_PersonelEkleme\obj\Debug\WFA_PersonelEkleme.csproj.GenerateResource.cache
+C:\Users\Fatih\Desktop\Github\YMS3140\OOP\24.08\WFA_PersonelEkleme\WFA_PersonelEkleme\obj\Debug\WFA_PersonelEkleme.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\Desktop\Github\YMS3140\OOP\24.08\WFA_PersonelEkleme\WFA_PersonelEkleme\obj\Debug\WFA_PersonelEkleme.exe
+C:\Users\Fatih\Desktop\Github\YMS3140\OOP\24.08\WFA_PersonelEkleme\WFA_PersonelEkleme\obj\Debug\WFA_PersonelEkleme.pdb
