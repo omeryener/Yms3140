@@ -61,7 +61,7 @@ namespace WFA_OOPIntro
             get { return _Ornek; }
             set { _Ornek = value; }
         }
-
+        public string TestProperty { get; set; }
 
 
         //internal string renk;
