@@ -1,0 +1,10 @@
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_Kitap\WFA_Kitap\bin\Debug\WFA_Kitap.exe.config
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_Kitap\WFA_Kitap\bin\Debug\WFA_Kitap.exe
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_Kitap\WFA_Kitap\bin\Debug\WFA_Kitap.pdb
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_Kitap\WFA_Kitap\obj\Debug\WFA_Kitap.csprojAssemblyReference.cache
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_Kitap\WFA_Kitap\obj\Debug\WFA_Kitap.Form1.resources
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_Kitap\WFA_Kitap\obj\Debug\WFA_Kitap.Properties.Resources.resources
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_Kitap\WFA_Kitap\obj\Debug\WFA_Kitap.csproj.GenerateResource.cache
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_Kitap\WFA_Kitap\obj\Debug\WFA_Kitap.csproj.CoreCompileInputs.cache
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_Kitap\WFA_Kitap\obj\Debug\WFA_Kitap.exe
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_Kitap\WFA_Kitap\obj\Debug\WFA_Kitap.pdb

@@ -1,0 +1,10 @@
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_AyakkabiDukkani\WFA_AyakkabiDukkani\bin\Debug\WFA_AyakkabiDukkani.exe.config
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_AyakkabiDukkani\WFA_AyakkabiDukkani\bin\Debug\WFA_AyakkabiDukkani.exe
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_AyakkabiDukkani\WFA_AyakkabiDukkani\bin\Debug\WFA_AyakkabiDukkani.pdb
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_AyakkabiDukkani\WFA_AyakkabiDukkani\obj\Debug\WFA_AyakkabiDukkani.csprojAssemblyReference.cache
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_AyakkabiDukkani\WFA_AyakkabiDukkani\obj\Debug\WFA_AyakkabiDukkani.Form1.resources
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_AyakkabiDukkani\WFA_AyakkabiDukkani\obj\Debug\WFA_AyakkabiDukkani.Properties.Resources.resources
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_AyakkabiDukkani\WFA_AyakkabiDukkani\obj\Debug\WFA_AyakkabiDukkani.csproj.GenerateResource.cache
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_AyakkabiDukkani\WFA_AyakkabiDukkani\obj\Debug\WFA_AyakkabiDukkani.csproj.CoreCompileInputs.cache
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_AyakkabiDukkani\WFA_AyakkabiDukkani\obj\Debug\WFA_AyakkabiDukkani.exe
+D:\Sınıflar\YMS3140\OOP\20.08\WFA_AyakkabiDukkani\WFA_AyakkabiDukkani\obj\Debug\WFA_AyakkabiDukkani.pdb

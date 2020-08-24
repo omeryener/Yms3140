@@ -1,0 +1,11 @@
+D:\Sınıflar\YMS3140\OOP\19.08\WFA_OOPIntro\WFA_OOPIntro\bin\Debug\WFA_OOPIntro.exe.config
+D:\Sınıflar\YMS3140\OOP\19.08\WFA_OOPIntro\WFA_OOPIntro\bin\Debug\WFA_OOPIntro.exe
+D:\Sınıflar\YMS3140\OOP\19.08\WFA_OOPIntro\WFA_OOPIntro\bin\Debug\WFA_OOPIntro.pdb
+D:\Sınıflar\YMS3140\OOP\19.08\WFA_OOPIntro\WFA_OOPIntro\obj\Debug\WFA_OOPIntro.csprojAssemblyReference.cache
+D:\Sınıflar\YMS3140\OOP\19.08\WFA_OOPIntro\WFA_OOPIntro\obj\Debug\WFA_OOPIntro.Form1.resources
+D:\Sınıflar\YMS3140\OOP\19.08\WFA_OOPIntro\WFA_OOPIntro\obj\Debug\WFA_OOPIntro.Properties.Resources.resources
+D:\Sınıflar\YMS3140\OOP\19.08\WFA_OOPIntro\WFA_OOPIntro\obj\Debug\WFA_OOPIntro.csproj.GenerateResource.cache
+D:\Sınıflar\YMS3140\OOP\19.08\WFA_OOPIntro\WFA_OOPIntro\obj\Debug\WFA_OOPIntro.csproj.CoreCompileInputs.cache
+D:\Sınıflar\YMS3140\OOP\19.08\WFA_OOPIntro\WFA_OOPIntro\obj\Debug\WFA_OOPIntro.exe
+D:\Sınıflar\YMS3140\OOP\19.08\WFA_OOPIntro\WFA_OOPIntro\obj\Debug\WFA_OOPIntro.pdb
+D:\Sınıflar\YMS3140\OOP\19.08\WFA_OOPIntro\WFA_OOPIntro\obj\Debug\WFA_OOPIntro.PabucForm.resources
